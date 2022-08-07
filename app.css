@@ -1,0 +1,230 @@
+body {
+    background: #CAD2C5;
+    font-family: "Nunito", sans-serif;
+}
+
+#blaine-h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    color: #2F3E46;
+}
+
+.blurb h2 {
+    color: #CAD2C5;
+}
+
+.blurb p {
+    color: #d2cfd0;
+    line-height: 2.0;
+}
+
+#hours-location {
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #2F3E46;
+    transition: .2s;
+}
+
+#mainNavbar .navbar-brand {
+    color: #84A98C;
+    font-weight: 800;
+}
+
+#headingGroup span {
+    color: #092204;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.div-bg {
+    background-image: linear-gradient(to left, #84A98C, #52796F, #354f52, #2F3E46);
+    background-color: #405f57;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.div-bg-2 {
+    background-image: linear-gradient(to right, #84A98C, #52796F, #354f52, #2F3E46);
+    background-color: #405f57;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.icon {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 10%;
+    color: white;
+}
+
+img {
+    border-radius: 5px;
+    width: 1000px;
+}
+
+#call-to-action-btn {
+    background-color: #CAD2C5;
+    color: #092204;
+    padding: 20px 55px;
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 3%;
+}
+
+#call-to-action-btn:hover {
+    background-color: #092204;
+    color: #CAD2C5;
+    transition: .3s;
+}
+
+#footer {
+    background-color: #2f443f;
+    height: 300px;
+}
+
+#footer-text {
+    color: white;
+    margin-top: 260px;
+}
+
+.navbar.scrolled {
+    background: #354F52;
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 450px) {
+    h2 {
+        margin-top: 10%;
+    }
+}
+
+.panel {
+    padding: 15px 25px;
+    width: 100%;
+    max-width: 960px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing-plan {
+    border-bottom: 1px solid #e1f1ff;
+}
+
+.pricing-plan:last-child {
+    border-bottom: none;
+}
+
+.pricing-img {
+    margin-bottom: 25px;
+    max-width: 100%;
+}
+
+.pricing-header {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: x-large;
+}
+
+.pricing-features {
+    margin: 50px 0 25px;
+    color: white;
+    border-top: 1px solid #e2f1df;
+}
+
+.pricing-features-item {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 15px 0;
+
+}
+
+.pricing-price {
+    color: white;
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pricing-button {
+    border: 1px solid #092204;
+    border-radius: 10px;
+    background-color: #092204;
+    color: #84A98C;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    margin: 25px 0;
+    transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover,
+.pricing-button:focus {
+    background-color: #CAD2C5;
+    color: #092204;
+    text-decoration: none;
+}
+
+.pricing-button.is-featured {
+    background-color: #2f443f;
+    color: #CAD2C5;
+}
+
+.pricing-button.is-featured:hover,
+.pricing-button.is-featured:focus {
+    background-color: #CAD2C5;
+    color: #2f443f;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.pricing-icon {
+    max-width: 35%;
+}
+
+@media (min-width: 900px) {
+    .panel {
+        flex-direction: row;
+    }
+
+    .pricing-plan {
+        border-bottom: none;
+        border-right: 1px solid #e1f1ff;
+        padding: 25px 50px;
+    }
+
+    .pricing-plan:last-child {
+        border-right: none;
+    }
+}
